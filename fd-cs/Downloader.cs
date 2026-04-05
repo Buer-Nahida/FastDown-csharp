@@ -50,7 +50,6 @@ namespace fd_cs
             }
 
             _client = new HttpClient(handler);
-            _client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36");
 
             if (headers != null)
             {
